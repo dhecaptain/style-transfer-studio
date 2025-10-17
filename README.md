@@ -1,17 +1,35 @@
+---
+title: Style Transfer Studio
+app_file: style_transfer.py
+sdk: gradio
+sdk_version: 5.49.1
+---
+
 # 🎨 Neural Style Transfer Studio
 
 Transform your images into stunning works of art using state-of-the-art deep learning! This application uses Fast Neural Style Transfer to apply artistic styles to your photos in real-time.
+
+<div align="center">
+
+[![🚀 Try it Live on Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-yellow)](https://huggingface.co/spaces/polygeen/style-transfer-studio)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+[![Gradio](https://img.shields.io/badge/Gradio-5.0+-orange.svg)](https://gradio.app/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+</div>
+
+## 🌐 Live Demo
+
+**Try it now without installation!** 👉 [**Launch Web App**](https://huggingface.co/spaces/polygeen/style-transfer-studio) 🚀
+
+No setup required - just open your browser and start creating art!
 
 <p align="center">
   <img src="images/image.png" alt="Style Transfer Studio Interface" width="800"/>
   <br/>
   <em>Easy-to-use Gradio web interface</em>
 </p>
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
-![Gradio](https://img.shields.io/badge/Gradio-5.0+-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## ✨ Features
 
@@ -37,7 +55,7 @@ Transform your images into stunning works of art using state-of-the-art deep lea
   <em>Original Image</em>
 </p>
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <img src="images/styled/mosaic.jpg" alt="Mosaic Style" width="200"/>
@@ -74,11 +92,21 @@ Transform your images into stunning works of art using state-of-the-art deep lea
 
 ### Before & After Comparison
 
+<div align="center">
+
 | Original | Styled (Mosaic) |
 |----------|-----------------|
 | ![Original](images/avril.jpg) | ![Styled](images/styled/mosaic.jpg) |
 
+</div>
 
+## 🚀 Quick Start
+
+### Option 1: Use the Live Web App (Easiest!)
+
+Just visit **[https://huggingface.co/spaces/polygeen/style-transfer-studio](https://huggingface.co/spaces/polygeen/style-transfer-studio)** and start creating! No installation needed.
+
+### Option 2: Run Locally
 
 ## 🛠️ Installation
 
@@ -92,7 +120,7 @@ Transform your images into stunning works of art using state-of-the-art deep lea
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/dhecaptain/style-transfer-studio.git
 cd style-transfer-studio
 ```
 
@@ -117,7 +145,7 @@ The application will:
 - Launch a Gradio web interface at `http://localhost:7860`
 - Open the interface in your default browser
 
-## 🚀 Usage
+## 🎯 Usage
 
 ### Image Style Transfer
 
@@ -170,7 +198,7 @@ Models are trained on the [MS-COCO dataset](https://cocodataset.org/) and automa
 style-transfer-studio/
 ├── style_transfer.py       # Main application file
 ├── requirements.txt        # Python dependencies
-├── readme.md              # This file
+├── README.md              # This file
 └── style_models/          # Downloaded models (auto-created)
     ├── mosaic.pth
     ├── candy.pth
@@ -266,4 +294,10 @@ If you find this project useful, please consider giving it a star! ⭐
 
 ---
 
-**Made with Dave❤️ using PyTorch and Gradio**
+<div align="center">
+
+**Made with ❤️ by [Dave](https://github.com/dhecaptain) using PyTorch and Gradio**
+
+[🚀 Try Live Demo](https://huggingface.co/spaces/polygeen/style-transfer-studio) | [⭐ Star on GitHub](https://github.com/dhecaptain/style-transfer-studio) | [🐛 Report Bug](https://github.com/dhecaptain/style-transfer-studio/issues)
+
+</div>
