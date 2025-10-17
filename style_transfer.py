@@ -1,15 +1,3 @@
-"""
-Real-Time Neural Style Transfer Studio
-Built with PyTorch and Gradio
-
-Features:
-- Fast Style Transfer using pre-trained models
-- Real-time webcam processing
-- Multiple artistic styles
-- Style intensity control
-- High-quality image output
-"""
-
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
