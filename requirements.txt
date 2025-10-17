@@ -1,0 +1,17 @@
+# Neural Style Transfer Studio - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Web Interface
+gradio>=5.0.0
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Additional utilities
+scipy>=1.10.0
